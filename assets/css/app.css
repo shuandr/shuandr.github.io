@@ -1,0 +1,259 @@
+
+
+body {
+	  font-family: 'FiraSans-Regular' !important;
+}
+
+
+.bgrd-strip {
+	background: url(../img/_bgrd.png)
+}
+.grad-overlay{
+	min-height: 100%;
+	position: relative;
+background: -webkit-linear-gradient(top left, rgba(255, 220, 153,0.3), rgba(20, 42, 82, 0.3));
+background: -o-linear-gradient(top left, rgba(255, 220, 153,0.3), rgba(20, 42, 82, 0.3));
+background: linear-gradient(to bottom right, rgba(255, 220, 153,0.3), rgba(20, 42, 82, 0.3)); 
+}
+
+/*header*/
+.clnd-header{
+	margin-bottom: 12px;
+	max-height: 160px;
+}
+
+.logo {
+	padding: 1.2% 1.2% 1.8% 3%;
+}
+
+.coat-of-arm {
+	padding-right: 0px !important;
+}
+
+.adrress {
+	display: block;
+	padding:2% 0px 0px 2%;
+	margin-bottom: 24px;
+	color: #720000;
+	border-left: 2px #720000 dotted;
+	line-height: 1.2rem !important;
+}
+
+.work-hours{
+	margin-top: 3px;
+	padding-top: 3px;
+	border-top: 2px #720000 dotted;
+}
+/*END OF HEADER*/
+
+/*NAVIGATION*/
+nav .row {
+	padding: 6px 0px 8px 0px;
+	border-top: 2px #720000 dotted;
+	border-bottom: 2px #720000 dotted;
+	}
+
+	nav li{
+		display: inline-block;
+		font-size: 18px;
+		text-transform: uppercase;
+		letter-spacing: 0.06rem; 
+	}
+
+	nav li:hover{
+		background: rgba(255, 153, 0, 0.36);
+	}
+
+	nav li a:hover {
+		color: DarkRed;
+		  	font-family: 'FiraSans-Medium';
+
+	}
+	nav li a {	
+		line-height: 21px !important;
+		color: #720000;
+		text-align: center;
+	  	font-family: 'FiraSans-Regular';
+	}	
+	nav>div>.menu>li:not(:first-child) {
+		border-left: 2px #720000 dotted;
+		padding: 0px 4px 0px 3px;
+	}
+
+	.submenu>li{
+		color: #720000;
+		padding: 0.6rem;
+		font-family: 'FiraSans-Medium';
+		background: Moccasin;
+		border-bottom: 1px #720000 dotted;
+
+	}
+
+.divider-outer{
+	padding: 2%;
+	margin-top: 1rem;
+	margin-bottom: 1.2rem;
+	background: #fff;
+}
+
+.divider{
+	min-height: 2.4rem;
+	padding-bottom: 0.3rem;
+	background:  url(../img/_divider-deco.svg) no-repeat center;
+	background-size: contain;	
+}
+
+.slogan {
+    /*margin: auto;*/
+    /*max-width: 75%;*/
+    padding: 1.5%;
+    color: #720000;
+    text-align: center;
+    letter-spacing: 0.06rem;
+    background: #FFF;
+    font-size: 2rem;
+
+}
+.clnd-advavtages{
+/*	background: rgba(0,0,0, 0.64);
+*/	padding: 2.4%;
+}
+
+.clnd-thumb ul li{
+	line-height: 1.25rem;
+	text-align: left !important;
+}
+
+.advant-margin {
+		margin: 24px;		
+}
+
+.clnd-slider {
+	margin-top: 1.2rem;
+	margin-bottom: 1.8rem;
+	text-align: center;
+}
+
+.top-image{
+	margin-top: 2%;
+	background: url(../img/prtfl_top-image.jpg) no-repeat center;
+	background-size: contain;
+	height: auto;
+	border-radius: 12px;
+}
+
+.thumb-caption{
+	color: #720000;
+	padding: 1rem;
+}
+
+.clnd-white-wrapper{
+	color: #720000;
+	padding: 1.2rem;
+	background: #fff;
+	box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.24);
+
+}
+
+.clnd-slider .item{
+  margin: 0px;
+}
+
+.clnd-slider .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h2{
+	color: darkred !important;
+	font-size: 1.8em;
+	font-family: "FiraSans-Medium";
+/*	font-weight: bold;
+*/	letter-spacing: 0.1rem;
+
+	text-align: center !important;
+	text-transform: uppercase !important; 
+
+}
+
+.clnd-title{
+	margin-top: 1.8rem;
+	margin-bottom: 0.6rem;
+	padding: 0.2rem;
+	border-top: 2px #720000 dotted;
+	border-bottom: 2px #720000 dotted;
+
+}
+/*CATALOG*/
+
+
+.button:active,
+	.button.is-checked {
+	  background-color: darkred !important;
+	}
+
+	/* .button, .button-group, .filters-button-group{
+		float: none !important;
+	} */
+
+	.selector-label{
+		font-size: 1.2rem;
+		color: darkred;
+	}
+	.grid:after {
+	  content: '';
+	  display: block;
+	  clear: both;
+	}
+
+	.grid-item{
+		margin-bottom: 3%;
+		position: relative;
+	}
+
+	.grid-item_inner{
+		box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.24);
+
+	}
+
+	.grid-item img {
+	  display: block;
+	}
+
+	.grid-item__details{
+		padding: 0.6rem;
+		background: white;
+	}
+	.grid-item__width{
+		float: left;
+	}
+
+	.grid-item__code{
+		float: right;
+		font-size: 0.7rem;
+		color: darkgrey;
+	}
+
+/*FOOTER*/
+.clnd-footer{
+	padding: 2rem;
+	background: moccasin;
+	position: absolute;
+	width: 100%;
+	top: 100%;
+	box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.24);
+
+}
+.footer-divider{
+	margin-bottom: 1.2rem;
+	min-height: 2.4rem;
+	background:  url(../img/_divider-deco_2.svg) no-repeat center;
+	background-size: contain;	
+}
+
+
+
+.is-checked{
+	background: darkred;
+}
